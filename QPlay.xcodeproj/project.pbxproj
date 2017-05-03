@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9959AFEB1EB9C3EB00AD292A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9959AFEA1EB9C3EB00AD292A /* main.m */; };
+		9959AFEE1EB9C3EB00AD292A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9959AFED1EB9C3EB00AD292A /* AppDelegate.m */; };
+		9959AFF11EB9C3EB00AD292A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9959AFF01EB9C3EB00AD292A /* ViewController.m */; };
+		9959AFF41EB9C3EB00AD292A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9959AFF21EB9C3EB00AD292A /* Main.storyboard */; };
+		9959AFF61EB9C3EB00AD292A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9959AFF51EB9C3EB00AD292A /* Assets.xcassets */; };
+		9959AFF91EB9C3EB00AD292A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9959AFF71EB9C3EB00AD292A /* LaunchScreen.storyboard */; };
+		9959B0041EB9C3EB00AD292A /* QPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9959B0031EB9C3EB00AD292A /* QPlayTests.m */; };
+		9959B00F1EB9C3EB00AD292A /* QPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9959B00E1EB9C3EB00AD292A /* QPlayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9959B0001EB9C3EB00AD292A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9959AFDE1EB9C3EB00AD292A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9959AFE51EB9C3EB00AD292A;
+			remoteInfo = QPlay;
+		};
+		9959B00B1EB9C3EB00AD292A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9959AFDE1EB9C3EB00AD292A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9959AFE51EB9C3EB00AD292A;
+			remoteInfo = QPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9959AFE61EB9C3EB00AD292A /* QPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9959AFEA1EB9C3EB00AD292A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9959AFEC1EB9C3EB00AD292A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9959AFED1EB9C3EB00AD292A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9959AFEF1EB9C3EB00AD292A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9959AFF01EB9C3EB00AD292A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9959AFF31EB9C3EB00AD292A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9959AFF51EB9C3EB00AD292A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9959AFF81EB9C3EB00AD292A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9959AFFA1EB9C3EB00AD292A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9959AFFF1EB9C3EB00AD292A /* QPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9959B0031EB9C3EB00AD292A /* QPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPlayTests.m; sourceTree = "<group>"; };
+		9959B0051EB9C3EB00AD292A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9959B00A1EB9C3EB00AD292A /* QPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9959B00E1EB9C3EB00AD292A /* QPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPlayUITests.m; sourceTree = "<group>"; };
+		9959B0101EB9C3EB00AD292A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9959AFE31EB9C3EB00AD292A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9959AFFC1EB9C3EB00AD292A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9959B0071EB9C3EB00AD292A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9959AFDD1EB9C3EB00AD292A = {
+			isa = PBXGroup;
+			children = (
+				9959AFE81EB9C3EB00AD292A /* QPlay */,
+				9959B0021EB9C3EB00AD292A /* QPlayTests */,
+				9959B00D1EB9C3EB00AD292A /* QPlayUITests */,
+				9959AFE71EB9C3EB00AD292A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9959AFE71EB9C3EB00AD292A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9959AFE61EB9C3EB00AD292A /* QPlay.app */,
+				9959AFFF1EB9C3EB00AD292A /* QPlayTests.xctest */,
+				9959B00A1EB9C3EB00AD292A /* QPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9959AFE81EB9C3EB00AD292A /* QPlay */ = {
+			isa = PBXGroup;
+			children = (
+				9959AFEC1EB9C3EB00AD292A /* AppDelegate.h */,
+				9959AFED1EB9C3EB00AD292A /* AppDelegate.m */,
+				9959AFEF1EB9C3EB00AD292A /* ViewController.h */,
+				9959AFF01EB9C3EB00AD292A /* ViewController.m */,
+				9959AFF21EB9C3EB00AD292A /* Main.storyboard */,
+				9959AFF51EB9C3EB00AD292A /* Assets.xcassets */,
+				9959AFF71EB9C3EB00AD292A /* LaunchScreen.storyboard */,
+				9959AFFA1EB9C3EB00AD292A /* Info.plist */,
+				9959AFE91EB9C3EB00AD292A /* Supporting Files */,
+			);
+			path = QPlay;
+			sourceTree = "<group>";
+		};
+		9959AFE91EB9C3EB00AD292A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9959AFEA1EB9C3EB00AD292A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9959B0021EB9C3EB00AD292A /* QPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				9959B0031EB9C3EB00AD292A /* QPlayTests.m */,
+				9959B0051EB9C3EB00AD292A /* Info.plist */,
+			);
+			path = QPlayTests;
+			sourceTree = "<group>";
+		};
+		9959B00D1EB9C3EB00AD292A /* QPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9959B00E1EB9C3EB00AD292A /* QPlayUITests.m */,
+				9959B0101EB9C3EB00AD292A /* Info.plist */,
+			);
+			path = QPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9959AFE51EB9C3EB00AD292A /* QPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9959B0131EB9C3EB00AD292A /* Build configuration list for PBXNativeTarget "QPlay" */;
+			buildPhases = (
+				9959AFE21EB9C3EB00AD292A /* Sources */,
+				9959AFE31EB9C3EB00AD292A /* Frameworks */,
+				9959AFE41EB9C3EB00AD292A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QPlay;
+			productName = QPlay;
+			productReference = 9959AFE61EB9C3EB00AD292A /* QPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9959AFFE1EB9C3EB00AD292A /* QPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9959B0161EB9C3EB00AD292A /* Build configuration list for PBXNativeTarget "QPlayTests" */;
+			buildPhases = (
+				9959AFFB1EB9C3EB00AD292A /* Sources */,
+				9959AFFC1EB9C3EB00AD292A /* Frameworks */,
+				9959AFFD1EB9C3EB00AD292A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9959B0011EB9C3EB00AD292A /* PBXTargetDependency */,
+			);
+			name = QPlayTests;
+			productName = QPlayTests;
+			productReference = 9959AFFF1EB9C3EB00AD292A /* QPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9959B0091EB9C3EB00AD292A /* QPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9959B0191EB9C3EB00AD292A /* Build configuration list for PBXNativeTarget "QPlayUITests" */;
+			buildPhases = (
+				9959B0061EB9C3EB00AD292A /* Sources */,
+				9959B0071EB9C3EB00AD292A /* Frameworks */,
+				9959B0081EB9C3EB00AD292A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9959B00C1EB9C3EB00AD292A /* PBXTargetDependency */,
+			);
+			name = QPlayUITests;
+			productName = QPlayUITests;
+			productReference = 9959B00A1EB9C3EB00AD292A /* QPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9959AFDE1EB9C3EB00AD292A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zzqiltw;
+				TargetAttributes = {
+					9959AFE51EB9C3EB00AD292A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					9959AFFE1EB9C3EB00AD292A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9959AFE51EB9C3EB00AD292A;
+					};
+					9959B0091EB9C3EB00AD292A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9959AFE51EB9C3EB00AD292A;
+					};
+				};
+			};
+			buildConfigurationList = 9959AFE11EB9C3EB00AD292A /* Build configuration list for PBXProject "QPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9959AFDD1EB9C3EB00AD292A;
+			productRefGroup = 9959AFE71EB9C3EB00AD292A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9959AFE51EB9C3EB00AD292A /* QPlay */,
+				9959AFFE1EB9C3EB00AD292A /* QPlayTests */,
+				9959B0091EB9C3EB00AD292A /* QPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9959AFE41EB9C3EB00AD292A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9959AFF91EB9C3EB00AD292A /* LaunchScreen.storyboard in Resources */,
+				9959AFF61EB9C3EB00AD292A /* Assets.xcassets in Resources */,
+				9959AFF41EB9C3EB00AD292A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9959AFFD1EB9C3EB00AD292A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9959B0081EB9C3EB00AD292A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9959AFE21EB9C3EB00AD292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9959AFF11EB9C3EB00AD292A /* ViewController.m in Sources */,
+				9959AFEE1EB9C3EB00AD292A /* AppDelegate.m in Sources */,
+				9959AFEB1EB9C3EB00AD292A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9959AFFB1EB9C3EB00AD292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9959B0041EB9C3EB00AD292A /* QPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9959B0061EB9C3EB00AD292A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9959B00F1EB9C3EB00AD292A /* QPlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9959B0011EB9C3EB00AD292A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9959AFE51EB9C3EB00AD292A /* QPlay */;
+			targetProxy = 9959B0001EB9C3EB00AD292A /* PBXContainerItemProxy */;
+		};
+		9959B00C1EB9C3EB00AD292A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9959AFE51EB9C3EB00AD292A /* QPlay */;
+			targetProxy = 9959B00B1EB9C3EB00AD292A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9959AFF21EB9C3EB00AD292A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9959AFF31EB9C3EB00AD292A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9959AFF71EB9C3EB00AD292A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9959AFF81EB9C3EB00AD292A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9959B0111EB9C3EB00AD292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9959B0121EB9C3EB00AD292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9959B0141EB9C3EB00AD292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzqiltw.daisy.QPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9959B0151EB9C3EB00AD292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzqiltw.daisy.QPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9959B0171EB9C3EB00AD292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzqiltw.daisy.QPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QPlay.app/QPlay";
+			};
+			name = Debug;
+		};
+		9959B0181EB9C3EB00AD292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzqiltw.daisy.QPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QPlay.app/QPlay";
+			};
+			name = Release;
+		};
+		9959B01A1EB9C3EB00AD292A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzqiltw.daisy.QPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QPlay;
+			};
+			name = Debug;
+		};
+		9959B01B1EB9C3EB00AD292A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzqiltw.daisy.QPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9959AFE11EB9C3EB00AD292A /* Build configuration list for PBXProject "QPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9959B0111EB9C3EB00AD292A /* Debug */,
+				9959B0121EB9C3EB00AD292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9959B0131EB9C3EB00AD292A /* Build configuration list for PBXNativeTarget "QPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9959B0141EB9C3EB00AD292A /* Debug */,
+				9959B0151EB9C3EB00AD292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9959B0161EB9C3EB00AD292A /* Build configuration list for PBXNativeTarget "QPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9959B0171EB9C3EB00AD292A /* Debug */,
+				9959B0181EB9C3EB00AD292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9959B0191EB9C3EB00AD292A /* Build configuration list for PBXNativeTarget "QPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9959B01A1EB9C3EB00AD292A /* Debug */,
+				9959B01B1EB9C3EB00AD292A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9959AFDE1EB9C3EB00AD292A /* Project object */;
+}
